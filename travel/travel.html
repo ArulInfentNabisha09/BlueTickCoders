@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+   body {
+    padding-left: 2%;
+    margin-bottom: 20px;
+    background-image: url("travelform-background.png");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the div */
+    background-position: center; /* Centers the image */
+    height: 100vh; 
+}
+
+  input, select{
+    display: block;
+    margin-bottom: 15px;
+}
+input[type="checkbox"]{
+    display: inline;
+    accent-color: red;
+}
+input[type="radio"]{
+    display: inline;
+    accent-color: red;
+}
+button{
+    display: block;
+}
+    h4{
+        color: red;
+    }
+span{
+    color: red;
+}
+button[type="submit"]{
+    background-color: red;
+    color: white;
+    width: 10%;
+    padding: 10px;
+    border-radius: 5px;
+   border-color:white;
+}
+
+   </style>
+</head>
+<body>
+    <div>
+    <form>
+            <legend style="color: white;font-size:35px;font-weight: bold;">Tour Booking Form</legend>
+            <br>
+            <h4>Note: <span>*</span> Mandatory Fields</h4>
+            <hr style="border: 2px solid white;">
+<label>
+    Full name<span>*</span>:
+</label>
+
+<input type="text" required>
+
+
+<label>
+    Email address<span>*</span>:
+</label>
+
+
+<input type="email" required>
+
+<label>Select Tour Package<span>*</span></label>
+
+<select>
+    <option>South India</option>
+    <option>North India</option>
+    <option>UAE</option>
+    <option>Oman</option>
+</select>
+
+
+<label>
+    Arrival date<span>*</span>:
+</label>
+
+<input type="date">
+
+<label>
+    Number of Persons<span>*</span>:
+</label>
+
+<input type="number" required>
+
+
+<label>What would you want to avail? <span>*</span>:</label><br>
+
+<label style="cursor: pointer;">
+    
+    <input type="checkbox" required> Boarding
+</label><br>
+
+<label style="cursor: pointer;">
+    <input type="checkbox" required> Food
+</label><br>
+
+<label style="cursor: pointer;">
+    
+    <input type="checkbox" required>Sight seeing
+</label>
+
+<label style="display: block;">
+    Terms and conditions<span>*</span>:
+</label>
+
+<label style="cursor: pointer;">I agree
+<input type="radio"></label>
+<label style="cursor: pointer;">I disagree
+<input type="radio"></label>
+
+<button type="submit">BOOK NOW</button>
+
+    </form>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+<!-- <label>
+    Age:
+</label>
+<div style="display: block;"></div>
+<input type="number"> -->
+
+
+<!-- <label>
+    Password:
+</label>
+<input type="password"> -->
+
+<!-- <label>Address</label>
+<textarea></textarea>
+<div style="display: block;"></div> -->
+
+<!-- <label>Country</label>
+<select>
+    <option>India</option>
+    <option>USA</option>
+    <option>UAE</option>
+    <option>Oman</option>
+</select>
+<div style="display: block;"></div>
+<label>Hobby:</label><br>
+
+<label style="cursor: pointer;">
+    <input type="checkbox"> Cricket
+</label><br>
+
+<label style="cursor: pointer;">
+    <input type="checkbox"> Football
+</label><br>
+
+<label style="cursor: pointer;">
+    <input type="checkbox"> Hockey
+</label>
+<div style="display: block;"></div> -->
+<!-- <button type="submit">Submit</button> -->
